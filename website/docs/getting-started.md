@@ -8,8 +8,9 @@ slug: "/"
 
 [![Build Status](https://github.com/Kevin-Lee/sbt-docusaur/workflows/Build%20All/badge.svg)](https://github.com/Kevin-Lee/sbt-docusaur/actions?workflow=Build+All)
 [![Release Status](https://github.com/Kevin-Lee/sbt-docusaur/workflows/Release/badge.svg)](https://github.com/Kevin-Lee/sbt-docusaur/actions?workflow=Release)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.kevinlee/sbt-docusaur/badge.svg)](https://search.maven.org/artifact/io.kevinlee/sbt-docusaur)
-[![Latest version](https://index.scala-lang.org/kevin-lee/sbt-docusaur/sbt-docusaur/latest.svg)](https://index.scala-lang.org/kevin-lee/sbt-docusaur/sbt-docusaur)
+
+[![Maven Central Version](https://img.shields.io/maven-central/v/io.kevinlee/sbt-docusaur_sbt2_3?color=blue)](https://central.sonatype.com/artifact/io.kevinlee/sbt-docusaur_sbt2_3)
+[![sbt-docusaur Scala version support](https://index.scala-lang.org/kevin-lee/sbt-docusaur/sbt-docusaur/latest.svg)](https://index.scala-lang.org/kevin-lee/sbt-docusaur/sbt-docusaur)
 
 ![sbt-docusaur logo](/img/sbt-docusaur-400x400.png)
 
@@ -19,7 +20,7 @@ sbt plugin for Docusaurus
 
 In the `project/plugins.sbt`, add the following line,
 ```scala
-addSbtPlugin("io.kevinlee" % "sbt-docusaur" % "0.21.0")
+addSbtPlugin("io.kevinlee" % "sbt-docusaur" % "0.22.0")
 ```
 
 In your `build.sbt`,
